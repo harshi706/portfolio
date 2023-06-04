@@ -1,0 +1,104 @@
+body {
+    background-color: #ece7e1;
+    font-family: Montserrat, sans-serif;
+  }
+  .des{
+    float: left;
+    width: 50%;
+    margin-bottom: 48px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 2rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  img{
+    width: 440px;
+    height: 320px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+    .des:hover {
+      cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+    }
+    .head{
+      font-size: 4rem;
+      text-align: center;
+    }
+    .one{
+      font-size: 1.7rem;
+      text-align: center;
+    }
+   .food:hover{
+    cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   }
+   .comm{
+    margin-top: 40px;
+   }
+   .code{
+    margin-top: 45px;
+   }
+   .time{
+    margin-top: 65px;
+   }
+   .quote{
+    margin-top: 70px;
+   }
+   .game{
+    margin-top: 40px;
+   }
+   .comm:hover{
+    cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+   }
+   .code:hover{
+    cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+   }
+   .quote:hover{
+    cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   }
+   .time:hover{
+    cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   }
+   .game:hover{
+    cursor: pointer;
+      background: linear-gradient(to right, white, transparent);
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   }
+   @media (max-width: 768px) {
+      .des {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
